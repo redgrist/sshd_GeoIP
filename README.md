@@ -1,6 +1,5 @@
 # sshd_GeoIP
 How to setup GeoIP to prevent access from other countries then PL 
-
 # install dnf, yum, apt
 sudo dnf install geoip-bin geoip-database
 # create file sh

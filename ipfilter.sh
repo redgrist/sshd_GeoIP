@@ -1,6 +1,5 @@
 #!/bin/bash
 # License: WTFPL
-
 # UPPERCASE space-separated country codes to ACCEPT example "PL US"
 ALLOW_COUNTRIES="PL"
 LOGDENY_FACILITY="authpriv.notice"
