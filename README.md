@@ -1,7 +1,9 @@
 # sshd_GeoIP
 How to setup GeoIP to prevent access from other countries then PL 
-# install dnf, yum, apt
-sudo dnf install geoip-bin geoip-database
+# install yum, apt
+sudo yum install geoip-bin geoip-database
+# Centos 8
+sudo dnf install GeoIP* geoipupdate
 # create file sh
 vim /usr/local/bin/ipfilter.sh
 # chmod
