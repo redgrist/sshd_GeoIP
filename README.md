@@ -36,3 +36,14 @@ LicenseKey YOUR_LICENSE_KEY_HERE
 
 EditionIDs YOUR_EDITION_IDS_HERE
 
+# Typically you should run geoipupdate weekly. One way to achieve this is to use cron. Below is a sample crontab file that runs geoipupdate on  each
+
+       Wednesday at noon:
+
+              # top of crontab
+
+              MAILTO=your@email.com
+
+              0 12 * * 3 BIN_DIR/geoipupdate
+
+              # end of crontab
