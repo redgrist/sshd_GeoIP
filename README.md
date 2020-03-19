@@ -26,8 +26,8 @@ vim /etc/GeoIP.conf
 
 add:
 
-'# GeoIP.conf file - used by geoipupdate program to update databases'
-'# from http://www.maxmind.com'
+# GeoIP.conf file - used by geoipupdate program to update databases
+# from http://www.maxmind.com
 AccountID YOUR_ACCOUNT_ID_HERE
 LicenseKey YOUR_LICENSE_KEY_HERE
 EditionIDs YOUR_EDITION_IDS_HERE
