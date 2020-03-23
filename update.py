@@ -13,7 +13,7 @@ fdat = "GeoIP.dat"
 print("downloading: "+filen , "from "+url)
 os.chdir(tdir)
 myfile = requests.get(url, allow_redirects=True)
-open(tdir+filen, 'wb').write(myfile.content)
+open(filen, 'wb').write(myfile.content)
 
 print("decompress: "+filen)
 
