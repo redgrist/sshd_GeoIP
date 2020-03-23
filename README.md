@@ -47,3 +47,7 @@ EditionIDs YOUR_EDITION_IDS_HERE
               0 12 * * 3 BIN_DIR/geoipupdate
 
               # end of crontab
+
+
+# Added update.py
+update.py for update by cron
